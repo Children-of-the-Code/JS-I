@@ -1,0 +1,20 @@
+/* we have different selectors in CSS that allow us to select elements from html and modify them */
+/* everything */
+* {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    color:blue;
+}
+/* element selector */
+button {
+    color : red;
+}
+/* id selector */
+#checkoutButton {
+    color:purple;
+}
+/* class selector */
+.storeText {
+    color:black
+}
