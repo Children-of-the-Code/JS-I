@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            pokedex v1
+        </title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel = "stylesheet" href = "./pokedex.css">
+    </head>
+    <body>
+        <div class = "container">
+            <div class = "row">
+                <div class = "col-sm">
+                    <h1>Pokelist</h1>
+                    <p>Input pokemon name here:</p>
+                    <input type="text" id = "nameInput">
+                    <button type = "button", id = "getNameButton">Get pokemon!</button>
+                    <section id = "list"></section>
+                </div>
+                <div class = "col-lg">
+                    <h1>Pokeinfo</h1>
+                    <section id = "panel">No pokemon loaded yet...</section>
+                </div>
+            </div>
+        </div>
+        <script src = "./pokedex.js"></script>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+/* everything within the 'body' element */
+body {
+    /* font-family */
+    color: #888888;
+    background-color: #EECC99;
+    /* background-color: color #ec9; */
+}
+/* ID selector */
+#getNameButton {
+    padding: 40px;
+    border-radius: 20px;
+    color:white;
+    background-color:#fb7;
+}
+
+button:hover {
+    background-color:#EEAA66;
+}
+button:active {
+    border: 2px solid #888888;
+}
+* {
+    text-align: center;
+}
