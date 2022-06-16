@@ -22,6 +22,7 @@ function saveArtist(){
         }
     }
 }
+
 function refreshList(){
     let httpRequest = new XMLHttpRequest();
     httpRequest.onreadystatechange = recieveData;
@@ -36,12 +37,14 @@ function refreshList(){
                 // ul stands for unordered list, we can add list items as its children
                 let artistList = document.createElement('ul');
                 artistSpan.innerHTML="";
+
                 for(let i = 0; i < responseJSON.length; i++){
                     console.log(responseJSON[i]);
                     let artistListItem = document.createElement('li');
                     artistListItem.innerText = responseJSON[i].name;
                     artistList.appendChild(artistListItem);
                 }
+
                 artistSpan.appendChild(artistList);
 
             }

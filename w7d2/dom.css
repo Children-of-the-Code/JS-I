@@ -1,0 +1,24 @@
+/*
+we have a number of selectors - the most important ones will be
+by id,
+by element type,
+by class,
+universal
+*/
+/* universal */
+*{
+    color:red;
+    font-size:20px;
+}
+/* id selector */
+#clickButton{
+    color:blue;
+    margin-left: 50%;
+}
+/* element selector */
+li{
+    color:purple;
+    font-style:italic;
+}
+/* CSS box model - every element has a certain 'box' around it containing multiple layers which can also be styled -
+margin, border, padding, content (in that order) */
