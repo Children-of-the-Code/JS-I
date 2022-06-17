@@ -1,0 +1,5 @@
+1. what is the role of HTML and CSS?
+2. what is javascript and why do we use it?
+3. what does being loosely typed mean?
+4. what is the DOM?
+5. what does it mean to be asynchronous?
